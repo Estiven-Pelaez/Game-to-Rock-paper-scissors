@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Piedra, Papel y Tijeras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>¡Welcome! <br> To Rock Papers Scissors</h1>
+    </main>
+    <section class="container">
+        <p>Select an option to play</p>
+        <div class="containerResultado">
+            <h2>!Resultado!</h2>
+            <div id="resultado"></div>
+        </div>
+        <div class="button">
+            <button onclick="jugar('piedra')"><img src="/Resources/rock.png" alt="Image of the rock"></button>
+            <button onclick="jugar('papel')"><img src="/Resources/paper.png" alt="Image of the papers"></button>
+            <button onclick="jugar('tijeras')"><img src="/Resources/scissors.png" alt="Image of the scissors"></button>
+        </div>  
+    </section>
+    
+    <footer>
+        <p>Stiven Pelaez</p>
+        <a class="logos" href="https://github.com/Estiven-Pelaez" target="_blank">
+            <img src="/Resources/github.png" alt="Image of the github">
+        </a>
+        <a class="logos" href="https://www.linkedin.com/in/stiven-pelaez-9b3209248/" target="_blank">
+            <img src="/Resources/linkdlink.png" alt="Image of the linkdlink">
+        </a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
